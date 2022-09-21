@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Create an app
+ng generate component app-name
+or
+ng g c app-name
+
+## Install and configure bootstrap
+npm install --save bootstrap@3
+
+On the course is recommended to add the following:
+include "node_modules/bootstrap/dist/css/bootstrap.min.css" into projects.architect.build.styles[] in angular.json
+
+But besides the step above, on my projects I also had to add the following line to styles.css
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+## Bindable Properties and Events
+The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for YOUR_ELEMENT properties  or YOUR_ELEMENT events  should yield nice results.

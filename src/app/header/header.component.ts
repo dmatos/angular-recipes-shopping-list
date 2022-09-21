@@ -7,23 +7,7 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  @Output() recipeBookToggle = new EventEmitter<{}>();
-  @Output() shoppingListToggle = new EventEmitter<{}>();
-
-  constructor() {
-    this.shoppingListToggle =  new EventEmitter<{}>();
-    this.recipeBookToggle =  new EventEmitter<{}>();
-  }
-
   ngOnInit(): void {
-  }
-
-  toggleRecipeBook(){
-    this.recipeBookToggle.emit({});
-  }
-
-  toggleShoppingList(){
-    this.shoppingListToggle.emit({});
   }
 
 }

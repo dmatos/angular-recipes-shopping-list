@@ -1,5 +1,5 @@
-<div class="col-xs-12">
-  <a href="#" class="list-group-item clearfix" (click)="onSelected()">
+<div routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="col-xs-12">
+  <a class="list-group-item clearfix" [routerLink]="['/recipe-book/details', recipe.id]">
     <div class="pull-left">
       <h4 class="lsit-group-item-heading" [innerText]="recipe.name">Recipe Name</h4>
       <p class="list-group-item-text" [innerText]="recipe.description">Description</p>

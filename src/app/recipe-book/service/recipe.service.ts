@@ -1,7 +1,6 @@
-import {EventEmitter, Injectable} from "@angular/core";
+import {Injectable} from "@angular/core";
 import {Recipe} from "../model/recipe.model";
 import {IngredientModel} from "../../shared/ingredient.model";
-import {Params} from "@angular/router";
 
 @Injectable()
 export class RecipeService{

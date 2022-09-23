@@ -43,3 +43,9 @@ But besides the step above, on my projects I also had to add the following line 
 
 ## Bindable Properties and Events
 The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for YOUR_ELEMENT properties  or YOUR_ELEMENT events  should yield nice results.
+
+## In order to follow along smoothly with the course examples, make sure you install RxJS v6 by running
+npm install --save rxjs@6
+
+### In addition, also install the rxjs-compat package:
+npm install --save rxjs-compat

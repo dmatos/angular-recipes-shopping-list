@@ -16,10 +16,6 @@ export class AppComponent implements OnInit{
     this.toggleShoppingList = false;
   }
 
-  onToggleRecipeBook(){
-    this.toggleRecipeBook = !this.toggleRecipeBook;
-  }
-
   onToggleShoppingList(){
     this.toggleShoppingList = !this.toggleShoppingList;
   }
